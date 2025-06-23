@@ -32,7 +32,7 @@
 		]
 	},
 	"dependencies": {
-		"@sentry/cloudflare": "^9.30.0",
-		"@sentry/sveltekit": "^9.30.0"
+		"@sentry/cloudflare": "^9.31.0",
+		"@sentry/sveltekit": "^9.31.0"
 	}
 }
