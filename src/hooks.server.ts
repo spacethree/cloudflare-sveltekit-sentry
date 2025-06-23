@@ -21,6 +21,7 @@ export const handle = sequence(
   initCloudflareSentryHandle({
     dsn: "https://62c179208e23abfaca674357ecd68744@o4508894715641856.ingest.us.sentry.io/4509548440649728",
     tracesSampleRate: 1.0,
+    _experiments: { enableLogs: true },
   }),
   sentryHandle()
 );
