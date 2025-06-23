@@ -5,6 +5,8 @@ import * as Sentry from "@sentry/sveltekit";
 const { logger } = Sentry;
 
 export const GET = async () => {
+  console.log("Sentry =>", Sentry);
+  console.log("Sentry logger =>", logger);
   logger.info("Hello from Sentry! (server method)", {
     requestId: "123",
   });
